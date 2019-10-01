@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+
+}
 html{
   color: white;
 
@@ -12,11 +16,14 @@ li{
   display: inline-block;
   list-style-position: inside;
 }
+article{
+  margin: auto;
+  background-color: grey;
+  width: 65%;
+}
 p{
   color: white;
   text-align: center;
-
-
 }
 nav{
   background-color: grey;
@@ -29,8 +36,29 @@ header{
 .button {
     color: white;
     background-color: black;
-    display: inline-block; padding: 2px 8px;
+    display: inline-block;
+    padding: 2px 8px;
 }
-.currentpage{
+.Projects div{
+  display: flex;
+  align-items: center;
 
+}
+.projectID div{
+  display: flex;
+  flex-direction: column;
+}
+.projectID{
+  width: 33%;
+  float: left;
+  margin: 5%;
+  background-color: grey;
+  flex-direction: column;
+
+}
+div .button{
+  color: white;
+  background-color: black;
+  display: block;
+  padding: .5rem;
 }
