@@ -3,11 +3,12 @@
 *::before {
   box-sizing: border-box;
 }
-html{
-  color: white;
+a{
+  text-decoration: none;
 }
+
 body{
-  background-color: #4e4d4d;
+  background-image: url(images/circle-blues.png);
 }
 
 nav li{
@@ -15,15 +16,23 @@ nav li{
 
 }
 article{
+  padding: 1rem;
   margin: auto;
-  background-color: grey;
+  background-color: white;
+  border: 1rem ridge grey;
   width: 65%;
+  color: darkblue;
+  margin-top: 2rem;
 }
 p{
-  color: white;
+  color: darkblue;
   text-align: center;
 }
+nav a:hover{
+  border-color: white;
+}
 nav{
+  border: 1rem ridge grey;
   background-color: black;
   position: fixed;
   right: 1%;
@@ -33,6 +42,9 @@ nav{
   flex-direction: column;
   width: 10%;
 }
+nav .button{
+    padding: .2rem .2rem;
+}
 
 ul{
   display:flex;
@@ -41,18 +53,20 @@ ul{
   padding: 0;
 }
 header{
-  background-color: grey;
+  color: darkblue;
+  margin-top: 2rem;
+  background-color: white;
   padding: 1rem;
+  border: 1rem ridge grey;
 }
 
 .button {
     color: white;
     background-color: black;
     display: inline-block;
-    padding: 2px 8px;
     border-radius: 30px;
     margin-bottom: 2rem;
-    border: 2px solid transparent;
+    border: 4px solid transparent;
     padding: 1rem 2rem;
     text-align: center;
 }
@@ -66,24 +80,45 @@ header{
   flex-direction: column;
 }
 .projectID{
+  color: darkblue;
   width: 33%;
   margin: 5%;
-  background-color: grey;
+  border: 1rem ridge grey;
+  background-color: white;
   flex-direction: column;
   padding: 1rem 1rem;
 }
 div .button{
-  padding: .5rem;
+  padding: 1rem;
+  border: 10px solid transparent;
+
 
 }
 a:hover {
-  border-color: white;
+  border-color: darkblue;
 }
 .Projects{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
+.projects-title{
+  background-color: white;
+  color: darkblue;
+  border: 1rem ridge grey;
+  width: 50%;
+}
+.resume{
+  background-color: white;
+  color: darkblue;
+  border: 1rem ridge grey;
+  text-align: center;
+  padding: 1rem;
+}
+.resume a{
+  margin: auto;
+}
+
 
 
 
@@ -93,7 +128,7 @@ a:hover {
 /* Media Querys */
 @media screen and (min-width: 800px) and (max-width: 1400px){
   nav .button{
-    padding: .2rem .2rem;
+    padding: 0rem 0rem;
 
 
   }
@@ -103,8 +138,6 @@ a:hover {
   .nav-ul{
     flex-direction: row;
     padding:0;
-
-
   }
   .Projects{
     display: flex;
@@ -121,5 +154,4 @@ a:hover {
   nav .button{
     padding: .2rem .2rem;
   }
-
 }
