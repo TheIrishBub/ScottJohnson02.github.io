@@ -56,11 +56,8 @@ ul{
 
 }
 header{
-  color: darkblue;
   margin-top: 2rem;
-  background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISDxUSEg8VFRUVFRUVFRUVFRUVFRcVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAJcBTQMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EABkQAQEBAQEBAAAAAAAAAAAAAAABAhFBEv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD14CQFip0BRACovUsABrMBcxQBWdRQHMb1HMFVJFBRAF6lgdBBagDWYZjQHVQAs65tlnQYAAaQBTqdALEXpYCAuYC5jQdBm5TrXU1AZBAUQBRG5AJninUoL0QBRAFSzpFBlGrGQBAFEAVqZMxegHUoC9EAUQAs6jRYDAICiAKI1mATLR0oB1AAAE1GOujOoDIN5gGYodAABKLEsAWJFBRAA1OgDmN2MAN5iZy0CodAOlAECxICtIAqABZ1itpYDALmAuY2h0FToAVFSwAEBRG8wE+PfUdGdZBkAAEBViRoEsRpmgAAAgKvx6uY0DmN6jAAICiLAWFigMhQAAARrMA+Oo6JYDAAAICg1AYCtZgLmKgC9EATUZb6moDJCRQUQBRACxFSgNZhmKCnUAVNTodBga1GeARpAFEAXqWACBVzAMxtAFEALGK2WAwHFAVDoNZhQBAoB0RQFiRQTUZbTUBkQ6CiAK1mJI0BUXqUA6ICgQFLABgas6wCnU6AojWYC5i0OgnQqAoigKigWMNlnQYEoDYigJRQZWHFA6IoAAJqMOjOoDLecpmNACAKCAWCpwBRAXoACanVAcxvUZzAXOWhAURQEsUBAsWAQAAEBbOudjogAgCrIkUFZqgIFQFEAVrMMxroJqMOjOoDIgCiAK0gCWC9SwAQBRGswFzF1OnVBzG9TrmCiAKI1AWJYHQQLEBRAFWQzGgcyLcnQBAF6IAqUUEazCZUFE6AogCajLaXIMxRAU6gCiAFF6TIGY2gCiAKmoAMDVnUAEAXoigdKi9BFzCZaBRABNQAZToAAAsakAGmQAAAAAUATUZ6gAAAqANSNKAzYAAAAAClgAwnQAAAakAGiwAQAH//2Q==);
   padding: 1rem;
-  border: 1rem ridge grey;
 }
 
 .button {
@@ -91,6 +88,9 @@ header{
   background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISDxUSEg8VFRUVFRUVFRUVFRUVFRcVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAJcBTQMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EABkQAQEBAQEBAAAAAAAAAAAAAAABAhFBEv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD14CQFip0BRACovUsABrMBcxQBWdRQHMb1HMFVJFBRAF6lgdBBagDWYZjQHVQAs65tlnQYAAaQBTqdALEXpYCAuYC5jQdBm5TrXU1AZBAUQBRG5AJninUoL0QBRAFSzpFBlGrGQBAFEAVqZMxegHUoC9EAUQAs6jRYDAICiAKI1mATLR0oB1AAAE1GOujOoDIN5gGYodAABKLEsAWJFBRAA1OgDmN2MAN5iZy0CodAOlAECxICtIAqABZ1itpYDALmAuY2h0FToAVFSwAEBRG8wE+PfUdGdZBkAAEBViRoEsRpmgAAAgKvx6uY0DmN6jAAICiLAWFigMhQAAARrMA+Oo6JYDAAAICg1AYCtZgLmKgC9EATUZb6moDJCRQUQBRACxFSgNZhmKCnUAVNTodBga1GeARpAFEAXqWACBVzAMxtAFEALGK2WAwHFAVDoNZhQBAoB0RQFiRQTUZbTUBkQ6CiAK1mJI0BUXqUA6ICgQFLABgas6wCnU6AojWYC5i0OgnQqAoigKigWMNlnQYEoDYigJRQZWHFA6IoAAJqMOjOoDLecpmNACAKCAWCpwBRAXoACanVAcxvUZzAXOWhAURQEsUBAsWAQAAEBbOudjogAgCrIkUFZqgIFQFEAVrMMxroJqMOjOoDIgCiAK0gCWC9SwAQBRGswFzF1OnVBzG9TrmCiAKI1AWJYHQQLEBRAFWQzGgcyLcnQBAF6IAqUUEazCZUFE6AogCajLaXIMxRAU6gCiAFF6TIGY2gCiAKmoAMDVnUAEAXoigdKi9BFzCZaBRABNQAZToAAAsakAGmQAAAAAUATUZ6gAAAqANSNKAzYAAAAAClgAwnQAAAakAGiwAQAH//2Q==);
   flex-direction: column;
   padding: 1rem 1rem;
+}
+.projectID img{
+  width: 100%;
 }
 div .button{
   padding: 1rem;
@@ -125,9 +125,6 @@ a:hover {
 footer p{
   color: white;
 }
-.projectID .button {
-  display: flex;
-}
 .downloads{
   display:flex;
   width: 100%
@@ -138,17 +135,19 @@ footer p{
   flex-wrap: nowrap;
   justify-content: space-around;
 }
+.downloads a{
+  width: 40%;
+  text-align: center;
+}
 #projects{
   padding: 1rem;
 }
 .projectID h2{
   text-align: center;
-  color: rgba(0,168,255,0.5);
-  text-shadow: 2px 2px 0 rgba(255,0,180,0.5);
-}
-.projectID h2:hover{
   color: darkblue;
+  text-shadow: 2px 2px 0 #f0632a;
 }
+
 
 
 
@@ -165,11 +164,58 @@ footer p{
 
   }
 }
- @media screen and (min-width: 800px) and (max-width: 949px){
-   nav{
-     width: 20%
-   }
- }
+@media screen and (min-width: 800px) and (max-width: 949px){
+
+nav{
+    width: 20%
+  }
+}
+
+/* Animation for my Name */
+ @media screen and (min-width: 0px){
+
+
+ body { font: 20 1em/1.5 "Neuton";  text-align: center; margin: 0 }
+
+h1 {
+
+	text-transform: uppercase;
+}
+
+  span {
+
+  	font: 50px "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+/* Clip Background Image */
+
+	  background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animate Background Image */
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+  }
+}
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
 
  @media screen and (min-width: 0px) and (max-width: 799px){
   .nav-ul{
